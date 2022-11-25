@@ -1,0 +1,15 @@
+#TARGET: DEPENDENCIES
+#  COMMANDS TO BUILD TARGET FROM DEPENDENCIES
+
+ALL:child parent
+
+child: child.c
+	gcc child.c -o child
+
+parent:parent.c
+	gcc parent.c -o parent
+
+clean:
+	     rm parent child
+
+#Copy paste στον editor χωρίς κατάληξη το αρχέιο και λειτουργεί 
