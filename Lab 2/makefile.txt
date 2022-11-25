@@ -11,5 +11,3 @@ parent:parent.c
 
 clean:
 	     rm parent child
-
-#Copy paste στον editor χωρίς κατάληξη το αρχέιο και λειτουργεί 
